@@ -1,0 +1,91 @@
+.site-footer {
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 144rem;
+    font-family: generalFont;
+
+    .site-footer__items {
+        color: rgba(31, 32, 65, 0.5);
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 7.7rem;
+        margin: 8rem 0;
+
+        .site-footer__item {
+            width: 16rem;
+
+            .site-footer__item-logo {
+                height: 5.5rem;
+                line-height: 5rem;
+            }
+            h3 {
+                color: #1F2041;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.5rem;
+                font-size: 12px;
+            }
+
+            .site-footer__item-text {
+                font-size: 14px;
+                line-height: 24px;
+                color: rgba(31, 32, 65, 0.75);
+            }
+            .site-footer__item-icon {
+                position: relative;
+            
+                .site-footer__item-input {
+                    font-family: inherit;
+                    width: 100%;
+                    height: 2.5rem;
+                    background: #FFFFFF;
+                    border: 1px solid rgba(31, 32, 65, 0.25);
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    margin-top: 1.5rem;
+                        &::placeholder{
+                            color: rgba(31, 32, 65, 0.25);
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                }
+                .site-footer__item-aicon {
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 0;
+                    bottom: 0;
+                    right: 0.875rem;
+                }
+            }
+            .site-footer__item-block {
+                display: flex;
+                flex-direction: column;
+
+                .block__link {
+                    text-decoration: none;
+                    color: rgba(31, 32, 65, 0.5);
+                    line-height: 2.8rem;
+                    
+                }
+            }
+        }
+    }
+    .site-footer__copyright {
+        display: flex;
+        justify-content: space-between;
+        font-family: generalFont;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(31, 32, 65, 0.75);
+
+        .site-footer__copyright-icons {
+            display: flex;
+            justify-content: space-between;
+            width: 7rem;
+
+        }
+    }
+}
+
