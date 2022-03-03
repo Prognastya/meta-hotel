@@ -1,0 +1,30 @@
+include libs/_libs
+
+.layer 
+    .layer-container 
+        .layer-container__text Найдем номера под ваши пожелания
+        .layer-container__dates.dates 
+            .dates-options 
+                .dates-options__text прибытие
+                input.dates-options__input
+            .dates-options
+                .dates-options__text выезд
+                input.dates-options__input
+        .layer-container__guests.guests Гости
+            .guests__div
+                ul.guests__siblings
+                    li.guests__pagenav
+                        span.guests__icon
+                            img(src=require('./images/arrow-down.png') alt='arrow') 
+                        ul.guests__variants
+                            li.guests__variant Один
+                            li.guests__variant Один
+                            li.guests__variant Один
+                            
+
+        button.layer-container__button.button__dropdown Подобрать номер
+
+            span.layer-container__button-arrow 
+                img(src=require('./images/arrow.png') alt='arrow')
+          
+            
